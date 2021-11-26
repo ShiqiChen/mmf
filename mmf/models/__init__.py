@@ -18,7 +18,7 @@ from .unimodal import UnimodalBase, UnimodalText, UnimodalModal
 from .vilbert import ViLBERT
 from .vilt import ViLT
 from .visual_bert import VisualBERT
-
+from .uniter import UNITER
 
 __all__ = [
     "TopDownBottomUp",
@@ -45,4 +45,5 @@ __all__ = [
     "UnimodalText",
     "AlbefVitEncoder",
     "ViLT",
+    "UNITER",
 ]
